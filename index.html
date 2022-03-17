@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,176 +8,90 @@
     <link rel="stylesheet" href="styles.css">
     <title>Chess Board</title>
 </head>
+
 <body>
-    <h2>Here's your chess board</h2>
     <div class="board">
-        <div class="inner-box top-left">
-            <div class="inner-box top-left">
-                <img src="images/white_knight.png" alt="Paris" class="inner-box top-left color1">
-                <img src="images/white_knight.png" alt="Paris" class="inner-box top-right color2">
-                
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box top-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-        </div>
-        <div class="inner-box top-right">
-            <div class="inner-box top-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box top-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-        </div>
-        <div class="inner-box bottom-left">
-            <div class="inner-box top-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box top-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-        </div>
-        <div class="inner-box bottom-right">
-            <div class="inner-box top-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box top-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-left">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-            <div class="inner-box bottom-right">
-                <div class="inner-box top-left color1">
-                </div>
-                <div class="inner-box top-right color2">
-                </div>
-                <div class="inner-box bottom-left color2">
-                </div>
-                <div class="inner-box bottom-right color1">
-                </div>
-            </div>
-        </div>
+        <!-- Row1 -->
+        <div class="box row-h col-1 white"></div>
+        <div class="box row-h col-2 black"></div>
+        <div class="box row-h col-3 white"></div>
+        <div class="box row-h col-4 black"></div>
+        <div class="box row-h col-5 white"></div>
+        <div class="box row-h col-6 black"></div>
+        <div class="box row-h col-7 white"></div>
+        <div class="box row-h col-8 black"></div>
+
+        <!-- Row2 -->
+        <div class="box row-g col-1 black"></div>
+        <div class="box row-g col-2 white"></div>
+        <div class="box row-g col-3 black"></div>
+        <div class="box row-g col-4 white"></div>
+        <div class="box row-g col-5 black"></div>
+        <div class="box row-g col-6 white"></div>
+        <div class="box row-g col-7 black"></div>
+        <div class="box row-g col-8 white"></div>
+
+        <!-- row3 -->
+        <div class="box row-f col-1 white"></div>
+        <div class="box row-f col-2 black"></div>
+        <div class="box row-f col-3 white"></div>
+        <div class="box row-f col-4 black"></div>
+        <div class="box row-f col-5 white"></div>
+        <div class="box row-f col-6 black"></div>
+        <div class="box row-f col-7 white"></div>
+        <div class="box row-f col-8 black"></div>
+
+        <!-- Row4 -->
+        <div class="box row-e col-1 black"></div>
+        <div class="box row-e col-2 white"></div>
+        <div class="box row-e col-3 black"></div>
+        <div class="box row-e col-4 white"></div>
+        <div class="box row-e col-5 black"></div>
+        <div class="box row-e col-6 white"></div>
+        <div class="box row-e col-7 black"></div>
+        <div class="box row-e col-8 white"></div>
+
+        <!-- Row5 -->
+        <div class="box row-d col-1 white"></div>
+        <div class="box row-d col-2 black"></div>
+        <div class="box row-d col-3 white"></div>
+        <div class="box row-d col-4 black"></div>
+        <div class="box row-d col-5 white"></div>
+        <div class="box row-d col-6 black"></div>
+        <div class="box row-d col-7 white"></div>
+        <div class="box row-d col-8 black"></div>
+
+        <!-- Row6 -->
+        <div class="box row-c col-1 black"></div>
+        <div class="box row-c col-2 white"></div>
+        <div class="box row-c col-3 black"></div>
+        <div class="box row-c col-4 white"></div>
+        <div class="box row-c col-5 black"></div>
+        <div class="box row-c col-6 white"></div>
+        <div class="box row-c col-7 black"></div>
+        <div class="box row-c col-8 white"></div>
+
+        <!-- Row7 -->
+        <div class="box row-b col-1 white"></div>
+        <div class="box row-b col-2 black"></div>
+        <div class="box row-b col-3 white"></div>
+        <div class="box row-b col-4 black"></div>
+        <div class="box row-b col-5 white"></div>
+        <div class="box row-b col-6 black"></div>
+        <div class="box row-b col-7 white"></div>
+        <div class="box row-b col-8 black"></div>
+
+        <!-- Row8 -->
+        <div class="box row-a col-1 black"></div>
+        <div class="box row-a col-2 white"></div>
+        <div class="box row-a col-3 black"></div>
+        <div class="box row-a col-4 white"></div>
+        <div class="box row-a col-5 black"></div>
+        <div class="box row-a col-6 white"></div>
+        <div class="box row-a col-7 black"></div>
+        <div class="box row-a col-8 white"></div>
+
     </div>
 </body>
+
 </html>

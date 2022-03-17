@@ -1,47 +1,87 @@
-
 .board {
-    position: fixed;
-    border: 2px solid green;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    height: 512px;
-    width: 512px;
-}
-
-.inner-box{
     position: absolute;
-    height: 50%;
-    width: 50%;
-}
-
-.border {
-    border: 2px solid green;
-}
-
-.top-left{
-    top:0%;
-    left:0%;
-}
-
-.top-right{
-    top:0%;
-    left:50%;
-}
-
-.bottom-left{
-    top:50%;
-    left:0%;
-}
-.bottom-right{
+    width: 512px;
+    height:512px;
     top:50%;
     left:50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid blueviolet;
 }
 
-.color1{
+.box {
+    position: absolute;
+    width: 12.5%;
+    height:12.5%;
+}
+
+.row-h {
+    top: 0%
+}
+
+.row-g {
+    top: 12.5%
+}
+
+.row-f {
+    top: 25%
+}
+
+.row-e {
+    top: 37.5%
+}
+
+.row-d {
+    top: 50%
+}
+
+.row-c {
+    top: 62.5%
+}
+
+.row-b {
+    top: 75%
+}
+
+.row-a {
+    top: 87.5%
+}
+
+.col-1 {
+    left: 0%
+}
+
+.col-2 {
+    left: 12.5%
+}
+
+.col-3 {
+    left: 25%
+}
+
+.col-4 {
+    left: 37.5%
+}
+
+.col-5 {
+    left: 50%
+}
+
+.col-6 {
+    left: 62.5%
+}
+
+.col-7 {
+    left: 75%
+}
+
+.col-8 {
+    left: 87.5%
+}
+
+.white {
     background-color: white;
 }
 
-.color2{
+.black {
     background-color: black;
 }
