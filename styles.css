@@ -1,0 +1,47 @@
+
+.board {
+    position: fixed;
+    border: 2px solid green;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 512px;
+    width: 512px;
+}
+
+.inner-box{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+}
+
+.border {
+    border: 2px solid green;
+}
+
+.top-left{
+    top:0%;
+    left:0%;
+}
+
+.top-right{
+    top:0%;
+    left:50%;
+}
+
+.bottom-left{
+    top:50%;
+    left:0%;
+}
+.bottom-right{
+    top:50%;
+    left:50%;
+}
+
+.color1{
+    background-color: white;
+}
+
+.color2{
+    background-color: black;
+}
